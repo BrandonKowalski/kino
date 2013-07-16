@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+}
+.kino-video {
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 640px;
+    text-align: center;
+}
