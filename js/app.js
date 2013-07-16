@@ -10,4 +10,5 @@ var loadVine = function() {
       alert('Ajax error!')
     }
   });
+  return data;
 }
