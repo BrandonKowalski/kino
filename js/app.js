@@ -10,6 +10,6 @@ var loadVine = function() {
       alert('Ajax error!')
     }
   });
-  console.log('v' + JSON.stringify(data));
+  console.log('v' + JSON.stringify(v));
   return v;
 }
