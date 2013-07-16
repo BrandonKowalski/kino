@@ -4,7 +4,7 @@ var loadVine = function() {
     url: 'http://dev.univfeed.com/api/schools',
     dataType: 'jsonp',
     success: function(data){
-      alert(data);
+      return data;
     },
     error: function(xhr, type){
       alert('Ajax error!')
