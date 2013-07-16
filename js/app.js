@@ -1,5 +1,5 @@
 var loadVine = function() {  
-  $.ajax({
+  var v = $.ajax({
     type: 'GET',
     url: 'http://dev.univfeed.com/api/schools',
     dataType: 'jsonp',
@@ -10,5 +10,5 @@ var loadVine = function() {
       alert('Ajax error!')
     }
   });
-  return data;
+  return v;
 }
