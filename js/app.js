@@ -4,12 +4,12 @@ var loadVine = function() {
     url: 'http://dev.univfeed.com/api/schools',
     dataType: 'jsonp',
     success: function(data){
-      console.log(JSON.stringify(data));
       return data;
     },
     error: function(xhr, type){
       alert('Ajax error!')
     }
   });
+  console.log('v' + JSON.stringify(data));
   return v;
 }
