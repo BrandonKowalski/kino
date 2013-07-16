@@ -1,4 +1,4 @@
-v = [];
+var v = [];
 var loadVine = function() {  
   $.ajax({
     type: 'GET',
