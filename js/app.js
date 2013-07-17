@@ -9,11 +9,10 @@ var loadSavedKino = function() {
 
 var playKino = function(videos) {
     var i = 0;
-    var sources = videos.kino;
-    console.log(JSON.stringify(sources));
+    console.log(JSON.stringify(videos));
     $('#kino-video').bind('ended', function() {
         //'this' is the DOM video element
-        this.src = sources[i++ % sources.length];
+        this.src = videos[i++ % videos.length];
         this.load();
         this.play();
     });
