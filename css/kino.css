@@ -1,9 +1,23 @@
 .container {
     width: 100%;
 }
-.kino-video {
+.kino-wrapper {
+    padding-top: 25px;
     position: relative;
     margin: 0 auto 0 auto;
     width: 640px;
+    text-align: center;
+}
+
+.kino-video-deck {
+    background-color: white;
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    font-size: 10px;
+    bottom: 10px;
     text-align: center;
 }
