@@ -10,7 +10,7 @@ var loadSavedKino = function() {
     var videos = vidSnip[1].split(';');
     if (videos.length > 0) {
         playKino(videos);
-        $('#meta').val(title + ' by ' + author);
+        $('#meta').text(title + ' by ' + author);
         $('.kino-video-deck').show();
     }
 }
