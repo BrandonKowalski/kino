@@ -60,7 +60,7 @@ var build = function() {
 
     videos = videos.substring(0, videos.length - 1);
 
-    var url = 'http://brandonkowalski.com/kino?title=' + title + '&author=' + author + '&kino=' + videos;
+    var url = 'http://brandon.kowalski.io/kino?title=' + title + '&author=' + author + '&kino=' + videos;
     $('#kinoURL').val(url);
     $('#build-button').hide();
     $('.kino-url-wrapper').show();
